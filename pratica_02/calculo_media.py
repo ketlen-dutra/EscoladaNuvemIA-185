@@ -11,3 +11,4 @@ media = (nota01 + nota02 + nota03) / 3
 
 print(f"Notas do primeiro bimestre: \n Nota 1: {nota01} \n Nota 2: {nota02} \n Nota 3: {nota03}")
 print(f"Media final do primeiro bimestre: {media:.2f}")
+print("Media final do primeiro bimestre:",round(media,2))

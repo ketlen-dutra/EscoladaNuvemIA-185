@@ -7,7 +7,7 @@
 distancia = 300
 combustivel_gasto = 25
 
-consumo_medio = 300 / 25
+consumo_medio = distancia / combustivel_gasto
 
 print(f"Distância percorrida: {distancia}Km \nCombustível gasto: {combustivel_gasto}L")
 print(f"Consumo médio: {consumo_medio:.2f}Km/L")
